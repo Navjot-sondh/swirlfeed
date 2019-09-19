@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d205776-3fc5-45e8-8e47-01d90133fbfa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/max.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/connect.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/register.php" beforeDir="false" afterPath="$PROJECT_DIR$/register.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/register.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+            <state relative-caret-position="502">
+              <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -121,12 +117,12 @@
       <workItem from="1568452087432" duration="808000" />
       <workItem from="1568776252050" duration="3438000" />
       <workItem from="1568878874230" duration="2232000" />
-      <workItem from="1568902424406" duration="1872000" />
+      <workItem from="1568902424406" duration="2572000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17317000" />
+    <option name="totallyTimeSpent" value="18017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -181,8 +177,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
+        <state relative-caret-position="502">
+          <caret line="51" column="9" lean-forward="true" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
         </state>
       </provider>
     </entry>

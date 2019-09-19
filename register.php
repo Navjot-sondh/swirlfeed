@@ -1,5 +1,5 @@
 <?php
-include("conn.php");
+include("connect.php");
 
 $fname="";
 $lname="";
@@ -15,17 +15,21 @@ if(isset($_POST['register_button']))
     $fname=str_replace(' ','',$fname);
     $fname=ucfirst(strtolower($fname));
 
+    echo "<br/>".$fname;
+
     $lname=strip_tags($_POST['reg_lname']);
     $lname=str_replace(' ','',$lname);
     $lname=ucfirst(strtolower($lname));
+    echo "<br />".$lname;
 
-    $fname=strip_tags($_POST['reg_email']);
-    $fname=str_replace(' ','',$fname);
-    $fname=ucfirst(strtolower($fname));
+    $em=strip_tags($_POST['reg_email']);
+    $em=str_replace(' ','',$em);
+    $em=ucfirst(strtolower($em));
+    echo 
 
-    $fname=strip_tags($_POST['reg_email2']);
-    $fname=str_replace(' ','',$fname);
-    $fname=ucfirst(strtolower($fname));
+    $em2=strip_tags($_POST['reg_email2']);
+    $em2=str_replace(' ','',$em2);
+    $em2=ucfirst(strtolower($em2));
 
     $password=strip_tags($_POST['reg_password']);
     $password=str_replace(' ','',$password);
@@ -41,7 +45,7 @@ if(isset($_POST['register_button']))
     {
         if(filter_var($em,FILTER_VALIDATE_EMAIL))
         {
-            //Store the validated version of Email 
+            //Store the validated version of Email
             $em=filter_var($em,FILTER_VALIDATE_EMAIL);
         }
         else
